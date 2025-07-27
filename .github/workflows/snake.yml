@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 permissions:
-contents: write # Permite que o GITHUB_TOKEN escreva no repositório
+  contents: write # Permite que o GITHUB_TOKEN escreva no repositório
 
 jobs:
   build:
